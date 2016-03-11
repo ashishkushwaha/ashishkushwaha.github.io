@@ -1,7 +1,6 @@
-# ashishkushwaha.github.io
-## Personal Website
+### Personal Resume Website
 
->For the final website demo, please visit [Ashish Kushwaha](http://ashishkushwaha.github.io/)
+>For the final website demo, please visit (http://ashishkushwaha.github.io/)
 
 Single Page Website (showcasing my skills & work exp) based on several open source CSS/JavaScript frameworks. Feel free to use the files for creating your own personal site.
 
