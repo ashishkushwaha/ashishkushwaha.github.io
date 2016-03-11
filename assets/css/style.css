@@ -1,0 +1,135 @@
+﻿/*--------------------------------------
+    Intro
+----------------------------------------*/
+
+#intro {
+    background: url(../images/intro.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+}
+
+    #intro:before {
+        content: "";
+        background-color: rgba(26, 30, 35, 0.75);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+.intro-text-container {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    -moz-transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+    -o-transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+}
+
+    .intro-text-container h1,
+    .intro-text-container h4 {
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+/* Mouse icon in Intro area */
+.mouse-icon {
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.87);
+    border-radius: 16px;
+    height: 50px;
+    width: 30px;
+    margin-left: -17px;
+    display: block;
+    z-index: 10;
+}
+
+    .mouse-icon .mouse-wheel {
+        position: relative;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.87);
+        width: 4px;
+        height: 10px;
+        top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+/*--------------------------------------
+    About Me
+----------------------------------------*/
+
+section#about-me{
+    margin-top:60px;
+}
+
+#about-me img.circle{
+    margin-top:-150px;
+}
+
+.container > h2{
+    text-transform:uppercase;
+    text-align:center;
+    font-weight:500;
+}
+
+#about-me .card-panel{
+    margin-top:180px;    
+}
+
+#about-me .card-panel ul>li{
+    width:50%;   
+    float:left;
+}
+
+
+.card-panel h4{
+    text-transform:uppercase;
+    margin-top:50px;
+    text-align:center;
+}
+
+
+
+/*--------------------------------------
+    Skills
+----------------------------------------*/
+
+section#skills{
+    margin-top:60px;
+}
+
+.skills-panel{
+  margin: 10px 40px;
+}
+
+.skills-panel .progress{
+  margin-bottom: 40px;
+}
+
+.skills-panel p{
+  font-size: 1.1rem; 
+}
+
+#skills .chip{
+    font-size:1.1rem;
+    margin:10px;
+}
+
+
+/*--------------------------------------
+    Responsive overrides for Small Screens
+----------------------------------------*/
+@media (max-width : 766px) {
+    #about-me .card-panel ul>li{
+    width:100%;
+}
+}
