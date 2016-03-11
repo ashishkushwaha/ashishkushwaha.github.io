@@ -67,69 +67,65 @@
     About Me
 ----------------------------------------*/
 
-section#about-me{
-    margin-top:60px;
+section#about-me {
+    margin-top: 60px;
 }
 
-#about-me img.circle{
-    margin-top:-150px;
+#about-me img.circle {
+    margin-top: -150px;
 }
 
-.container > h2{
-    text-transform:uppercase;
-    text-align:center;
-    font-weight:500;
+.container > h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
 }
 
-#about-me .card-panel{
-    margin-top:180px;    
+#about-me .card-panel {
+    margin-top: 180px;
 }
 
-#about-me .card-panel ul>li{
-    width:50%;   
-    float:left;
+    #about-me .card-panel ul > li {
+        width: 50%;
+        float: left;
+    }
+
+.card-panel h4 {
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
 }
-
-
-.card-panel h4{
-    text-transform:uppercase;
-    margin-top:50px;
-    text-align:center;
-}
-
-
 
 /*--------------------------------------
     Skills
 ----------------------------------------*/
 
-section#skills{
-    margin-top:60px;
+section#skills {
+    margin-top: 60px;
 }
 
-.skills-panel{
-  margin: 10px 40px;
+.skills-panel {
+    margin: 10px 40px;
 }
 
-.skills-panel .progress{
-  margin-bottom: 40px;
-}
+    .skills-panel .progress {
+        margin-bottom: 40px;
+    }
 
-.skills-panel p{
-  font-size: 1.1rem; 
-}
+    .skills-panel p {
+        font-size: 1.1rem;
+    }
 
-#skills .chip{
-    font-size:1.1rem;
-    margin:10px;
+#skills .chip {
+    font-size: 1.1rem;
+    margin: 10px;
 }
-
 
 /*--------------------------------------
     Responsive overrides for Small Screens
 ----------------------------------------*/
 @media (max-width : 766px) {
-    #about-me .card-panel ul>li{
-    width:100%;
-}
+    #about-me .card-panel ul > li {
+        width: 100%;
+    }
 }
