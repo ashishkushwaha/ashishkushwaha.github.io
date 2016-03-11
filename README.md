@@ -3,7 +3,7 @@
 
 Single Page Website (showcasing my skills & work exp) based on several open source CSS/JavaScript frameworks. Feel free to use the files for creating your own personal site.
 
-Following Frameworks were used in creating:
+Following Frameworks were used in creating this website:
 
 * [jQuery](https://jquery.com/)
 * [MaterializeCSS](http://materializecss.com/)
