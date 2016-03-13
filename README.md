@@ -11,3 +11,6 @@ Following Frameworks were used in creating this website:
 * [jQuery](https://jquery.com/)
 * [MaterializeCSS](http://materializecss.com/)
 * [Stellar.js](http://markdalgleish.com/projects/stellar.js/)
+* [Animate CSS](https://daneden.github.io/animate.css/)
+* [WOW.js](http://mynameismatthieu.com/WOW/index.html)
+* [Typed.js](http://www.mattboldt.com/demos/typed-js/)
