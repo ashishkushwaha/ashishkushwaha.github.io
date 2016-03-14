@@ -31,7 +31,7 @@ $(function () {
 
     //Typing skill Hashtags - using Typed.js
     (function () {
-        var passions = ["#Web Apps", "#JavaScript", "#SharePoint", "#Frontend Dev", "#HTML5", "#CSS", "#Responsive Web Design", "#Photoshop", "#REST", "#JSON", "#Gamer", "#Geek", "#PCMasterRace"];
+        var passions = ["#coder", "#programmer", "#designer", "#gamer", "#geek", "#technophile"];
 
         $(".typing-area").typed({
             strings: passions,
