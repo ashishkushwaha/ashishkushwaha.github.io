@@ -1,4 +1,16 @@
 ﻿/*--------------------------------------
+    Global Helpers
+----------------------------------------*/
+
+/*section:not(:first-child){
+    margin-top:80px;
+}*/
+
+.container > h2 {
+    padding: 60px 0 40px 0;
+}
+
+/*--------------------------------------
     Intro
 ----------------------------------------*/
 
@@ -32,13 +44,22 @@
     transform: translate(0%, -50%);
 }
 
-.intro-text-container h4 {
-    font-weight: 600;
-    text-transform: uppercase;
+    .intro-text-container h4 {
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .intro-text-container h1 {
+        font-weight: 600;
+    }
+
+.social-icons li {
+    display: inline-block;
+    padding: 4px;
 }
 
-.intro-text-container h1 {
-    font-weight: 600;
+.social-icons a i {
+    font-size: 2rem;
 }
 
 /* Mouse icon in Intro area */
@@ -127,10 +148,6 @@
     About Me
 ----------------------------------------*/
 
-section#about-me {
-    margin-top: 60px;
-}
-
 #about-me img.circle {
     margin-top: -150px;
 }
@@ -142,7 +159,7 @@ section#about-me {
 }
 
 #about-me .card-panel {
-    margin-top: 180px;
+    margin-top: 160px;
 }
 
     #about-me .card-panel ul > li {
@@ -159,10 +176,6 @@ section#about-me {
 /*--------------------------------------
     Skills
 ----------------------------------------*/
-
-section#skills {
-    margin-top: 60px;
-}
 
 .skills-panel {
     margin: 10px 40px;
@@ -181,16 +194,88 @@ section#skills {
     margin: 10px;
 }
 
+/*--------------------------------------
+    Work Experience (Timeline)
+----------------------------------------*/
 
+.timeline, .timeline li {
+    position: relative;
+}
+
+    .timeline .timeline-icon {
+        position: absolute;
+        top: 28px;
+        left: 50%;
+        margin-left: -6px;
+        font-size: 0.8rem;
+        height: 14px;
+        width: 14px;
+        /*background-color:#1976D2;*/
+        background-color: #424242;
+    }
+
+    .timeline ul:before {
+        content: '';
+        position: absolute;
+        background-color: #424242;
+        height: 100%;
+        width: 2px;
+        left: 50%;
+    }
+
+.row div.timeline-content {
+    padding: 20px;
+    background-color: #424242;
+    position: relative;
+}
+
+.timeline-content p {
+    padding-top: 10px;
+    font-size: 0.9rem;
+}
+
+.timeline-content .divider {
+    opacity: 0.4;
+}
+
+@media (min-width: 600px) {
+    .timeline ul li:nth-child(odd) div.timeline-content {
+        text-align: right;
+    }
+
+        .timeline ul li:nth-child(odd) div.timeline-content:before {
+            content: "";
+            position: absolute;
+            top: 20px;
+            left: 100%;
+            border-top: 16px solid transparent;
+            border-bottom: 16px solid transparent;
+            border-left: 20px solid #424242;
+        }
+
+    .timeline ul li:nth-child(even) div.timeline-content {
+        float: right;
+    }
+
+        .timeline ul li:nth-child(even) div.timeline-content:before {
+            content: "";
+            position: absolute;
+            top: 20px;
+            left: -20px;
+            ;
+            border-top: 16px solid transparent;
+            border-bottom: 16px solid transparent;
+            border-right: 20px solid #424242;
+        }
+}
 
 /*--------------------------------------
     Footer
 ----------------------------------------*/
 
-footer.page-footer{
-    margin-top:100px;
+footer.page-footer {
+    margin-top: 100px;
 }
-
 
 /*--------------------------------------
     Responsive overrides for Small Screens
