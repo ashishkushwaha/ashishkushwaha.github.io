@@ -21,7 +21,7 @@ $(function () {
         });
     }());
 
-    //parallax scrolling
+    //parallax scrolling - using Stellar.js
     (function () {
         $.stellar({
             horizontalScrolling: false,
@@ -41,5 +41,49 @@ $(function () {
             loop:true
         });
     }());
+
+    
+    //----------------------------------------
+    // Page Navigation
+    //----------------------------------------
+
+    //Make NAV bar stick to top of the browser
+    (function () {
+        $("nav").sticky({ topSpacing: 0 });
+    }());
+
+    //Init single page nav (smooth scrolling)
+    (function () {
+        $('nav ul').onePageNav();
+    }());
+
+    //Init mobile navigation (sidebar)
+    (function () {
+        $(".button-collapse").sideNav();
+    }());
+
+    //(function () {
+    //    $("#desktop-nav li").addClass('waves-effect');
+    //}());
+
+    //----------------------------------------
+    // Projects/Portfolio
+    //----------------------------------------
+
+    //Init Mixitup for Filtering of projects
+    (function () {
+        $('#projects-container').mixItUp();
+    }());
+
+
+    //----------------------------------------
+    // Certifications
+    //----------------------------------------
+
+    //Init carousel for certifications
+    (function () {
+        $('.carousel').carousel();
+    }());    
+
 
 }); //end of jQuery doc ready

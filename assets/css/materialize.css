@@ -5464,13 +5464,13 @@ nav ul a span.badge {
         left: 100%; } }
 
 nav {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.87);
   background-color: #424242;
   width: 100%;
   height: 56px;
   line-height: 56px; }
   nav a {
-    color: #fff; }
+    color: rgba(255, 255, 255, 0.87); }
   nav i,
   nav [class^="mdi-"], nav [class*="mdi-"],
   nav i.material-icons {
@@ -5495,7 +5495,7 @@ nav {
       line-height: 56px; }
   nav .brand-logo {
     position: absolute;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.87);
     display: inline-block;
     font-size: 2.1rem;
     padding: 0;
@@ -5529,7 +5529,7 @@ nav {
     nav ul a {
       transition: background-color .3s;
       font-size: 1rem;
-      color: #fff;
+      color: rgba(255, 255, 255, 0.87);
       display: block;
       padding: 0 15px;
       cursor: pointer; }
@@ -5558,7 +5558,7 @@ nav {
         color: rgba(255, 255, 255, 0.7);
         transition: color .3s; }
       nav .input-field label.active i {
-        color: #fff; }
+        color: rgba(255, 255, 255, 0.87); }
       nav .input-field label.active {
         transform: translateY(0); }
 
