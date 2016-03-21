@@ -6,6 +6,8 @@ Single Page Website (showcasing my skills & work exp) based on several open sour
 
 Feel free to use the files for creating your own personal/project website.
 
+### Credits
+
 Following Frameworks/Libraries were used in creating this website:
 
 * [jQuery](https://jquery.com/)
