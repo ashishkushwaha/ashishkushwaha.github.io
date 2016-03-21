@@ -6,7 +6,7 @@ Single Page Website (showcasing my skills & work exp) based on several open sour
 
 Feel free to use the files for creating your own personal/project website.
 
-Following Frameworks were used in creating this website:
+Following Frameworks/Libraries were used in creating this website:
 
 * [jQuery](https://jquery.com/)
 * [MaterializeCSS](http://materializecss.com/)
@@ -14,3 +14,6 @@ Following Frameworks were used in creating this website:
 * [Animate CSS](https://daneden.github.io/animate.css/)
 * [WOW.js](http://mynameismatthieu.com/WOW/index.html)
 * [Typed.js](http://www.mattboldt.com/demos/typed-js/)
+* [MixItUp](https://mixitup.kunkalabs.com/)
+* [One Page Nav](https://github.com/davist11/jQuery-One-Page-Nav)
+* [Sticky](http://stickyjs.com/)
