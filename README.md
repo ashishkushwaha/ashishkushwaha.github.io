@@ -12,10 +12,11 @@ Following Frameworks/Libraries were used in creating this website:
 
 * [jQuery](https://jquery.com/)
 * [MaterializeCSS](http://materializecss.com/)
+* [Font Awesome](https://fortawesome.github.io/Font-Awesome/)
 * [Stellar.js](http://markdalgleish.com/projects/stellar.js/)
 * [Animate CSS](https://daneden.github.io/animate.css/)
 * [WOW.js](http://mynameismatthieu.com/WOW/index.html)
 * [Typed.js](http://www.mattboldt.com/demos/typed-js/)
-* [MixItUp](https://mixitup.kunkalabs.com/)
+* [Isotope](http://isotope.metafizzy.co/)
 * [One Page Nav](https://github.com/davist11/jQuery-One-Page-Nav)
 * [Sticky](http://stickyjs.com/)
