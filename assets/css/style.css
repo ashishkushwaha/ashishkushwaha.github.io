@@ -13,6 +13,13 @@
     font-weight: 500;
 }
 
+.waves-effect.waves-blue .waves-ripple {
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: rgba(25, 118, 210, 0.80);
+    }
+
+
 /*--------------------------------------
     Intro
 ----------------------------------------*/
@@ -313,7 +320,7 @@ nav li.current a{
     margin: 0;
 }
 
-#projects-container .card-image {
+/*#projects-container .card-image {
     position: relative;
 }
 
@@ -359,8 +366,8 @@ nav li.current a{
     }
 
 .project-hover-content {
-    /*position:absolute;    
-    top:10%;*/
+    position:absolute;    
+    top:10%;
     -moz-transform: translate(0px, 20px); translate(0px, 2px);
     -ms-transform: translate(0px, 20px); translate(0px, 20px); translate(0px, 2px); translate(0px, 5px); translate(0px, 5px); translate(0px, 5px);
     -o-transform: translate(0px, 20px); translate(0px, 20px); translate(0px, 2px); translate(0px, 5px);
@@ -380,7 +387,7 @@ nav li.current a{
     -o-transform: translate(0px, 0px);
     -webkit-transform: translate(0px, 0px);
     transform: translate(0px, 0px);
-}
+}*/
 
 
 /*--------------------------------------

@@ -62,9 +62,9 @@ $(function () {
         $(".button-collapse").sideNav();
     }());
 
-    //(function () {
-    //    $("#desktop-nav li").addClass('waves-effect');
-    //}());
+    (function () {
+        $("#desktop-nav li").addClass('waves-effect waves-blue');
+    }());
 
     //----------------------------------------
     // Projects/Portfolio
@@ -72,7 +72,22 @@ $(function () {
 
     //Init Mixitup for Filtering of projects
     (function () {
-        $('#projects-container').mixItUp();
+        //$('#projects-container').mixItUp();
+
+        var isoGrid = $('#projects-container').isotope({
+            itemSelector: '.project',
+            percentPosition: true,
+            masonry: {
+                // use element for option               
+                columnWidth: '.project'
+            }
+        });
+
+        $('#projects-filter').on('click', 'li', function () {
+            var filterValue = $(this).attr('data-filter');
+            isoGrid.isotope({ filter: filterValue });
+        });
+
     }());
 
 

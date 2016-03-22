@@ -1,5 +1,6 @@
 ﻿/// <autosync enabled="true" />
 /// <reference path="../assets/js/init.js" />
+/// <reference path="../assets/js/isotope.pkgd.min.js" />
 /// <reference path="../assets/js/jquery.mixitup.min.js" />
 /// <reference path="../assets/js/jquery.nav.js" />
 /// <reference path="../assets/js/jquery.stellar.min.js" />

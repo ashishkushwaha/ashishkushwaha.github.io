@@ -64,7 +64,7 @@
     </section>
 
     <!-- Navigation -->
-    <nav>
+    <nav class="z-depth-1-half">
         <div class="nav-wrapper container">
             <a href="#!" class="brand-logo light-blue-text">Ashish Kushwaha</a>
             <a href="#!" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -293,17 +293,185 @@
             <h2 class="center">Projects</h2>
             <div id="projects-filter">
                 <ul>
-                    <li class="filter" data-filter=".sp-dev">SharePoint Dev</li>
-                    <li class="filter" data-filter=".sp-admin">SharePoint Admin</li>
-                    <li class="filter" data-filter=".js-dev">JavaScript</li>
-                    <li class="filter" data-filter=".web-dev">Web Design</li>
+                    <li class="filter" data-filter=".spdev">SharePoint Dev</li>
+                    <li class="filter" data-filter=".spadmin">SharePoint Admin</li>
+                    <li class="filter" data-filter=".jsdev">JavaScript</li>
+                    <li class="filter" data-filter=".webdev">Web Design</li>
                     <li class="filter" data-filter=".architecture">Architecture</li>
-                </ul>
-            </div>
+                </ul>               
+            </div>           
+
             <div id="projects-container" class="row">
-                
+
                 <!-- PROJECT: ashishkushwaha.github.io (this website) -->
-                <div class="col s12 m3">
+                <div class="col s12 m3 project jsdev webdev">
+                    <div class="card">
+                        <!--<div class="card-image">
+                            <img src="http://dummyimage.com/400x400/dedede/000000.png&text=Coming+Soon" />
+                        </div>-->
+                        <div class="card-content blue darken-2">
+                            <span class="card-title">ashishkushwaha.github.io</span>
+                            <p><i>HTML5, CSS3, Materialize, JavaScript, jQuery, JavaScript Libraries, Web Design, GitHub</i></p>
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                As a side project, created my portfolio website. This site is completely responsive and follows Google's Material Design guidelines.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT: IMF Retiree Portal -->
+                <div class="col s12 m3 project jsdev webdev">
+                    <div class="card">
+                        <!--<div class="card-image">
+                            <img src="http://dummyimage.com/400x400/dedede/000000.png&text=Coming+Soon" />
+                        </div>-->
+                        <div class="card-content blue darken-2">
+                            <span class="card-title">IMF Retiree Portal</span>
+                            <p><i>SharePoint, Feature Receivers, WCF, HTML5, CSS3, Bootstrap, JavaScript, jQuery, JavaScript Libraries, Web Design, TFS</i></p>
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                As a side project, created my portfolio website. This site is completely responsive and follows Google's Material Design guidelines.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT: Mysites LinkedIn Integration -->
+                <div class="col s12 m3 project jsdev webdev">
+                    <div class="card">
+                        <!--<div class="card-image">
+                            <img src="http://dummyimage.com/400x400/dedede/000000.png&text=Coming+Soon" />
+                        </div>-->
+                        <div class="card-content blue darken-2">
+                            <span class="card-title">Mysites LinkedIn Integration</span>
+                            <p><i>SharePoint, SP User Profiles, HTML5, CSS3, JavaScript, jQuery, REST, Web Design, LinkedIn API</i></p>
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                IMF intranet uses SharePoint My Sites to showcase personal information. The project involved setting up custom user property linking to the LinkedIn profile.
+                                The profile card was shown on the corporate My Sites once the information was provided by the user.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT: Mysites Voicemail Integration -->
+                <div class="col s12 m3 project jsdev webdev">
+                    <div class="card">
+                        <!--<div class="card-image">
+                            <img src="http://dummyimage.com/400x400/dedede/000000.png&text=Coming+Soon" />
+                        </div>-->
+                        <div class="card-content blue darken-2">
+                            <span class="card-title">Mysites Voicemail Integration</span>
+                            <p><i>SharePoint, Timer Jobs, SP User Profiles, HTML5, CSS3, JavaScript, jQuery, Web Design</i></p>
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                Enabled playing User pronounciation audio file from SharePoint my site user profile page. Custom timer job was used to extract the voice mail data
+                                from Cisco DB and was stored in a SharePoint Media library and linked to the UserID. HTML5 Audio was added to the profile pages linking back to the corresponding user voicefile.
+                            </p>
+                        </div>
+                    </div>
+                </div>               
+
+                <!-- PROJECT: Enterprise Calendar of Events -->
+                <div class="col s12 m3 project jsdev webdev">
+                    <div class="card">
+                        <!--<div class="card-image">
+                            <img src="http://dummyimage.com/400x400/dedede/000000.png&text=Coming+Soon" />
+                        </div>-->
+                        <div class="card-content blue darken-2">
+                            <span class="card-title">Enterprise Calendar of Events</span>
+                            <p><i>SharePoint, Timer Jobs, Event Receivers, Calendar, HTML5, CSS3, JavaScript, jQuery, Web Design</i></p>
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                IMF has a fundwide Calendar of Events functionality. This is a custom SharePoint solution running on top of SharePoint Calendar list. Solution was already in place, but there
+                                were several enhancements which I worked on. The Calendar offers functionalities like Creating/Managing global events, RSVP, Add to Outlook, setup reminders etc.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT: PG County Extranet Partner Portal -->
+                <div class="col s12 m3 project jsdev webdev">
+                    <div class="card">
+                        <!--<div class="card-image">
+                            <img src="http://dummyimage.com/400x400/dedede/000000.png&text=Coming+Soon" />
+                        </div>-->
+                        <div class="card-content blue darken-2">
+                            <span class="card-title">PG County Extranet</span>
+                            <p><i>SharePoint, Branding, Event &amp; Feature Receivers, HTML5, CSS3, JavaScript, jQuery, Web Design, Farm setup, Admin, Architecture</i></p>
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                Design, setup and development of Prince George's County extranet partner portal from ground up. This project had end-to-end SharePoint Portal implementation.
+                                Farm setup, application architecture, migration of existing data, apps development, branding, UI/UX, extranet user store - everything was implemented as part of this project.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT: BP Global DMS -->
+                <div class="col s12 m3 project jsdev webdev">
+                    <div class="card">
+                        <!--<div class="card-image">
+                            <img src="http://dummyimage.com/400x400/dedede/000000.png&text=Coming+Soon" />
+                        </div>-->
+                        <div class="card-content blue darken-2">
+                            <span class="card-title">British Petroleum DMS</span>
+                            <p><i>SharePoint, Event &amp; Feature Receivers, Timer Jobs, Managed Metadata, Document Management, JavaScript, Architecture</i></p>
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                Design, setup and development of Global Document Management System for British Petroleum. I was the Lead Developer/Architect for the SharePoint/Web Applications development track.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT: Collaboration Platform support and development -->
+                <div class="col s12 m3 project jsdev webdev">
+                    <div class="card">
+                        <!--<div class="card-image">
+                            <img src="http://dummyimage.com/400x400/dedede/000000.png&text=Coming+Soon" />
+                        </div>-->
+                        <div class="card-content blue darken-2">
+                            <span class="card-title">SharePoint Platform Ownership</span>
+                            <p><i>SharePoint, Event &amp; Feature Receivers, Timer Jobs, JavaScript, HTML, CSS, Farm setup, Administration</i></p>
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                SharePoint was used as the collaboration platform at Weatherford. The platform ownership (Development, Administration and Support) was owned by our team.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT: Pfizer Lipitor patient portal -->
+                <div class="col s12 m3 project jsdev webdev">
+                    <div class="card">
+                        <!--<div class="card-image">
+                            <img src="http://dummyimage.com/400x400/dedede/000000.png&text=Coming+Soon" />
+                        </div>-->
+                        <div class="card-content blue darken-2">
+                            <span class="card-title">Lipitor Patient Portal</span>
+                            <p><i>SharePoint, Branding, Event &amp; Feature Receivers, JavaScript, HTML, CSS, Web Development, Web Design</i></p>
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                Developed the online patient portal for Lipitor patients (a drug from Lipitor). This was a multilingual portal developed in 4 languages on top of SharePoint 2007.
+                                It had complete web content authoring capabilities for the business users to generate content pages in future.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT: ashishkushwaha.github.io (this website) -->
+                <div class="col s12 m3 hide">
                     <div class="card mix js-dev web-dev">
                         <div class="card-image waves-effect waves-block">
                             <img src="http://dummyimage.com/400x400/dedede/000000.png&text=Coming+Soon" />
@@ -324,9 +492,9 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- PROJECT: IMF Retiree Portal -->
-                <div class="col s12 m3">
+                <div class="col s12 m3 hide">
                     <div class="card mix sp-dev sp-admin js-dev web-dev">
                         <div class="card-image waves-effect waves-block">
                             <img src="assets/images/projects/imf-ret-portal.png" />
@@ -349,7 +517,7 @@
                 </div>
 
                 <!-- PROJECT: Mysites LinkedIn Integration -->
-                <div class="col s12 m3">
+                <div class="col s12 m3 hide">
                     <div class="card mix sp-dev js-dev web-dev">
                         <div class="card-image waves-effect waves-block">
                             <img src="http://dummyimage.com/400x400/dedede/000000.png&text=Coming+Soon" />
@@ -373,7 +541,7 @@
                 </div>
 
                 <!-- PROJECT: Mysites Voicemail Integration -->
-                <div class="col s12 m3">
+                <div class="col s12 m3 hide">
                     <div class="card mix sp-dev js-dev web-dev">
                         <div class="card-image waves-effect waves-block">
                             <img src="http://dummyimage.com/400x400/dedede/000000.png&text=Coming+Soon" />
@@ -397,7 +565,7 @@
                 </div>
 
                 <!-- PROJECT: Enterprise Calendar of Events -->
-                <div class="col s12 m3">
+                <div class="col s12 m3 hide">
                     <div class="card mix sp-dev js-dev web-dev">
                         <div class="card-image waves-effect waves-block">
                             <img src="http://dummyimage.com/400x400/dedede/000000.png&text=Coming+Soon" />
@@ -419,9 +587,9 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- PROJECT: PG County Extranet Partner Portal -->
-                <div class="col s12 m3">
+                <div class="col s12 m3 hide">
                     <div class="card mix sp-dev sp-admin js-dev web-dev architecture">
                         <div class="card-image waves-effect waves-block">
                             <img src="http://dummyimage.com/400x400/dedede/000000.png&text=Coming+Soon" />
@@ -435,7 +603,7 @@
                         <div class="card-reveal">
                             <span class="card-title">PG County Extranet<i class="material-icons right">close</i></span>
                             <p>
-                                Design, setup and development of Prince George's County extranet partner portal from ground up. This project had end-to-end SharePoint Portal implementation. 
+                                Design, setup and development of Prince George's County extranet partner portal from ground up. This project had end-to-end SharePoint Portal implementation.
                                 Farm setup, application architecture, migration of existing data, apps development, branding, UI/UX, extranet user store - everything was implemented as part of this project.
                             </p>
                             <div class="divider"></div>
@@ -443,9 +611,9 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- PROJECT: DMS migration -->
-                <div class="col s12 m3">
+                <div class="col s12 m3 hide">
                     <div class="card mix sp-dev js-dev architecture">
                         <div class="card-image waves-effect waves-block">
                             <img src="http://dummyimage.com/400x400/dedede/000000.png&text=Coming+Soon" />
@@ -466,9 +634,9 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- PROJECT: Collaboration Platform support and development -->
-                <div class="col s12 m3">
+                <div class="col s12 m3 hide">
                     <div class="card mix sp-dev sp-admin js-dev">
                         <div class="card-image waves-effect waves-block">
                             <img src="http://dummyimage.com/400x400/dedede/000000.png&text=Coming+Soon" />
@@ -482,16 +650,16 @@
                         <div class="card-reveal">
                             <span class="card-title">SharePoint Platform Ownership<i class="material-icons right">close</i></span>
                             <p>
-                                SharePoint was used as the collaboration platform at Weatherford. The platform ownership (Development, Administration and Support) was owned by our team. 
+                                SharePoint was used as the collaboration platform at Weatherford. The platform ownership (Development, Administration and Support) was owned by our team.
                             </p>
                             <div class="divider"></div>
                             <p><i>SharePoint, Event &amp; Feature Receivers, Timer Jobs, JavaScript, HTML, CSS, Farm setup, Administration</i></p>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- PROJECT: Pfizer Lipitor patient portal -->
-                <div class="col s12 m3">
+                <div class="col s12 m3 hide">
                     <div class="card mix sp-dev js-dev web-dev">
                         <div class="card-image waves-effect waves-block">
                             <img src="http://dummyimage.com/400x400/dedede/000000.png&text=Coming+Soon" />
@@ -624,6 +792,7 @@
     <script src="assets/js/jquery.stellar.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/jquery.mixitup.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
     <script src="assets/js/init.js"></script>
 
     <!-- Google Analytics -->
